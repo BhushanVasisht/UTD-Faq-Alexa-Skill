@@ -1,0 +1,130 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "comet guide",
+			"intents": [
+				{
+					"name": "AMAZON.FallbackIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": [
+						"Cancel"
+					]
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": [
+						"tell me about yourself",
+						"What can you do",
+						"can you help",
+						"Help"
+					]
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": [
+						"keep quite",
+						"turn off",
+						"stop"
+					]
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				},
+				{
+					"name": "AboutIntent",
+					"slots": [],
+					"samples": [
+						"what do you do",
+						"who are you",
+						"Tell me something about yourself"
+					]
+				},
+				{
+					"name": "FaqIntent",
+					"slots": [
+						{
+							"name": "query",
+							"type": "AMAZON.SearchQuery"
+						}
+					],
+					"samples": [
+						"tell me {query}"
+					]
+				},
+				{
+					"name": "OptionIntent",
+					"slots": [
+						{
+							"name": "housing",
+							"type": "Housing"
+						},
+						{
+							"name": "alumni",
+							"type": "alumni"
+						},
+						{
+							"name": "counseling",
+							"type": "Counseling"
+						}
+					],
+					"samples": [
+						"{counseling}",
+						"{alumni}",
+						"{housing}"
+					]
+				}
+			],
+			"types": [
+				{
+					"name": "Housing",
+					"values": [
+						{
+							"name": {
+								"value": "housing"
+							}
+						},
+						{
+							"name": {
+								"value": "first"
+							}
+						}
+					]
+				},
+				{
+					"name": "Counseling",
+					"values": [
+						{
+							"name": {
+								"value": "third"
+							}
+						},
+						{
+							"name": {
+								"value": "counseling"
+							}
+						}
+					]
+				},
+				{
+					"name": "alumni",
+					"values": [
+						{
+							"name": {
+								"value": "alumni"
+							}
+						},
+						{
+							"name": {
+								"value": "second"
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

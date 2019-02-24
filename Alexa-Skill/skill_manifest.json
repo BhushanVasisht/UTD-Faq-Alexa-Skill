@@ -1,0 +1,24 @@
+{
+	"skillManifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Ask an alexa for frequent asked question about utd",
+					"examplePhrases": [
+						"Tell me, what are the dates of my housing agreement?",
+						"Tell me, How do I join a local UT Dallas alumni chapter?",
+						"Tell me, Do you offer counseling services for alumni?"
+					],
+					"name": "Comet Guide",
+                    "invoke":"Open Comet Guide",
+					"description": "This lambda function is created for hackutd hackathon. This function shows how you can pass alexa query and pass to external web service which performs all the NLP part,which find matches the query with its existing dataset and answers if match found"
+				}
+			},
+			"isAvailableWorldwide": false,
+			"testingInstructions": "README.md",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		}		},
+		"manifestVersion": "1.0"
+	}
+}
