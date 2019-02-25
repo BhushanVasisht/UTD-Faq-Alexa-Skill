@@ -2,9 +2,9 @@ Build an Alexa UTD skill for frequently asked question.
 
 ## Team Member
 
-Arihant Chhajed 
-Bhushan Vasisht 
-Parva Shah    
+###Arihant Chhajed 
+###Bhushan Vasisht 
+###Parva Shah    
 
 ## Concepts
 This lambda function is created for hackutd hackathon. This function shows how you can pass alexa query and pass to external web service which performs all the NLP part,which find matches the query with its existing dataset and answers if match found
