@@ -26,7 +26,7 @@ To run this example skill you need to do three things.
 
 > Alexa: Welcome to Comet Guide! Ask something to hear about the university of texas at dallas and its services... Currently I can answer you housing, alumni, counseling related queries... So... which option would you like to go for?
 
-> User: First // Here "Housing,2nd,etc -- anything will work. We are storing this information in context memory of alexa
+> User: First 
 
 > Alexa: Ok... Thank you for your response... Now you can ask me your queries with hot keyword... 'tell me'
 
