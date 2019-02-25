@@ -31,4 +31,5 @@ To run this example skill you need to do three things.
 > Alexa: Ok... Thank you for your response... Now you can ask me your queries with hot keyword... 'tell me'
 
 > Tell me, What are the dates of my housing agreement
+
 > Alexa:- All housing agreements are for the complete 2018-19 academic year.
